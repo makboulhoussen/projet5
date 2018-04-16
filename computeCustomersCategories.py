@@ -11,7 +11,7 @@ Le résultat sera enregistré dans un fichier excel dans le répertoire data
 '''
 class CustomersSegmentation() :
 
-	categories_label = {0 :'FaibleValeur', 1 : 'Fidèle', 2 : 'HauteValeur', 3 : 'APotentiel', 4:'Standard' }
+	categories_label = {0 :'Standard', 1 : 'Fidele', 2 : 'HauteValeur', 3 : 'APotentiel', 4:'FaibleValeur' }
 
 	'''
 	Initialisation de la classe et construction de la structure clients à partir du fichier contenant les données de commandes.
